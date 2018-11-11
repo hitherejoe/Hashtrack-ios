@@ -8,6 +8,7 @@ target 'Hashtrack-ios' do
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
   pod 'FirebaseUI/Firestore', '~> 5.0'
+  pod 'SnapKit', '~> 4.0.0'
   # Pods for Hashtrack-ios
 
   target 'Hashtrack-iosTests' do

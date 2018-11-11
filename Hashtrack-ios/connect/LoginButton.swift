@@ -2,7 +2,7 @@ import UIKit
 
 let kLoginButtonBackgroundColor = UIColor(displayP3Red: 31/255, green: 75/255, blue: 164/255, alpha: 1)
 let kLoginButtonTintColor = UIColor.white
-let kLoginButtonCornerRadius: CGFloat = 24.0
+let kLoginButtonCornerRadius: CGFloat = 12.0
 
 class LoginButton: UIButton {
     

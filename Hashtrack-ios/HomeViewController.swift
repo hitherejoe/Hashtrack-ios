@@ -24,13 +24,13 @@ class HomeViewController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let twitterVC = HashtagViewController(firestore: self.firestore!)
-        twitterVC.tabBarItem = UITabBarItem(title: "Twitter", image: UIImage(named: "compass"), tag: 0)
+        let twitterController = HashtagViewController(firestore: self.firestore!)
+        twitterController.tabBarItem = UITabBarItem(title: "Twitter", image: UIImage(named: "twitter"), tag: 0)
         
-        let instagramVC = HashtagViewController(firestore: self.firestore!)
-        instagramVC.tabBarItem = UITabBarItem(title: "Instagram", image: UIImage(named: "compass"), tag: 0)
+        let instagramController = HashtagViewController(firestore: self.firestore!)
+        instagramController.tabBarItem = UITabBarItem(title: "Instagram", image: UIImage(named: "compass"), tag: 0)
         
-        let controllers = [twitterVC, instagramVC]
+        let controllers = [twitterController, instagramController]
         self.viewControllers = controllers
         self.viewControllers = controllers.map { UINavigationController(rootViewController: $0)}
     }

@@ -8,6 +8,7 @@
 
 import Foundation
 import FirebaseAuth
+import SnapKit
 
 class LoginViewController: UIViewController {
     
@@ -18,7 +19,7 @@ class LoginViewController: UIViewController {
     
     lazy var stackView: UIStackView = {
         let stackView = UIStackView(arrangedSubviews: [emailField, passwordField, authenticateButton])
-        stackView.alignment = .bottom
+        stackView.alignment = .fill
         stackView.distribution = .equalSpacing
         stackView.axis = .vertical
         stackView.spacing = 15.0
@@ -33,7 +34,8 @@ class LoginViewController: UIViewController {
     }
     
     func setupView() {
-        emailField.placeholder = "Enter email address"
+        emailField.placeholder = "Email address"
+        passwordField.placeholder = "Password"
         if (loginMode == LoginMode.signUp) {
             authenticateButton.setTitle("Sign up", for: .normal)
         } else {
@@ -43,9 +45,12 @@ class LoginViewController: UIViewController {
         passwordField.isSecureTextEntry = true
         view.addSubview(stackView)
         
+        stackView.snp.makeConstraints { (make) -> Void in
+            make.center.equalTo(self.view)
+            make.width.equalTo(250.0)
+        }
         
         let gesture = UITapGestureRecognizer(target: self, action: #selector(self.buttonClicked))
-        
         authenticateButton.addGestureRecognizer(gesture)
     }
     

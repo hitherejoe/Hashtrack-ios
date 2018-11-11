@@ -1,0 +1,6 @@
+framework module Pods_Hashtrack_iosTests {
+  umbrella header "Pods-Hashtrack-iosTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

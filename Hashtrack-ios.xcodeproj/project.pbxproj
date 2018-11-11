@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E6114D8A3D87BD1D9E3CEAF /* Pods_Hashtrack_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDEA592AD04E502B851A6FC /* Pods_Hashtrack_iosUITests.framework */; };
+		13BB276DC4918E95725A7CD3 /* Pods_Hashtrack_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7CFC6ECB050306D109F94F /* Pods_Hashtrack_iosTests.framework */; };
+		42C3413E2198606B009B845E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42C3413D2198606B009B845E /* GoogleService-Info.plist */; };
+		42C3413F2198606B009B845E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42C3413D2198606B009B845E /* GoogleService-Info.plist */; };
+		42C341402198606B009B845E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42C3413D2198606B009B845E /* GoogleService-Info.plist */; };
+		42C34142219863E1009B845E /* HashtagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C34141219863E1009B845E /* HashtagViewController.swift */; };
+		42C34143219863E1009B845E /* HashtagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C34141219863E1009B845E /* HashtagViewController.swift */; };
+		42C34144219863E1009B845E /* HashtagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C34141219863E1009B845E /* HashtagViewController.swift */; };
+		42C34147219866FC009B845E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C34146219866FC009B845E /* LoginViewController.swift */; };
+		42C3414921986713009B845E /* LoginMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C3414821986713009B845E /* LoginMode.swift */; };
+		42C3414B2198672B009B845E /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C3414A2198672B009B845E /* LoginButton.swift */; };
+		42C3414D2198673C009B845E /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C3414C2198673C009B845E /* LoginTextField.swift */; };
+		42C3414F219867A9009B845E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C3414E219867A9009B845E /* WelcomeViewController.swift */; };
 		42CB55CD21985C7900A8BFF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB55CC21985C7900A8BFF3 /* AppDelegate.swift */; };
 		42CB55CF21985C7900A8BFF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB55CE21985C7900A8BFF3 /* ViewController.swift */; };
-		42CB55D221985C7900A8BFF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CB55D021985C7900A8BFF3 /* Main.storyboard */; };
 		42CB55D421985C7B00A8BFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42CB55D321985C7B00A8BFF3 /* Assets.xcassets */; };
-		42CB55D721985C7B00A8BFF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CB55D521985C7B00A8BFF3 /* LaunchScreen.storyboard */; };
 		42CB55E221985C7B00A8BFF3 /* Hashtrack_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB55E121985C7B00A8BFF3 /* Hashtrack_iosTests.swift */; };
 		42CB55ED21985C7B00A8BFF3 /* Hashtrack_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB55EC21985C7B00A8BFF3 /* Hashtrack_iosUITests.swift */; };
+		42CB55FB21985CEB00A8BFF3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB55FA21985CEB00A8BFF3 /* HomeViewController.swift */; };
+		B93F771C8D81307B0F6288B3 /* Pods_Hashtrack_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA401B242D4DD9403E0329 /* Pods_Hashtrack_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +47,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EFDCB85A7AB1202DE9967E4 /* Pods-Hashtrack-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hashtrack-iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hashtrack-iosTests/Pods-Hashtrack-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3521597CFB9E05B4DC18C1B7 /* Pods-Hashtrack-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hashtrack-iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hashtrack-iosTests/Pods-Hashtrack-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		36E7240E58DDEE34938375B2 /* Pods-Hashtrack-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hashtrack-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hashtrack-iosUITests/Pods-Hashtrack-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		42C3413D2198606B009B845E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		42C34141219863E1009B845E /* HashtagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashtagViewController.swift; sourceTree = "<group>"; };
+		42C34146219866FC009B845E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		42C3414821986713009B845E /* LoginMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMode.swift; sourceTree = "<group>"; };
+		42C3414A2198672B009B845E /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		42C3414C2198673C009B845E /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		42C3414E219867A9009B845E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		42CB55C921985C7900A8BFF3 /* Hashtrack-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hashtrack-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CB55CC21985C7900A8BFF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42CB55CE21985C7900A8BFF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		42CB55D121985C7900A8BFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42CB55D321985C7B00A8BFF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		42CB55D621985C7B00A8BFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42CB55D821985C7B00A8BFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42CB55DD21985C7B00A8BFF3 /* Hashtrack-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hashtrack-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CB55E121985C7B00A8BFF3 /* Hashtrack_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hashtrack_iosTests.swift; sourceTree = "<group>"; };
@@ -47,6 +68,13 @@
 		42CB55E821985C7B00A8BFF3 /* Hashtrack-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hashtrack-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CB55EC21985C7B00A8BFF3 /* Hashtrack_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hashtrack_iosUITests.swift; sourceTree = "<group>"; };
 		42CB55EE21985C7B00A8BFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CB55FA21985CEB00A8BFF3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		47AA401B242D4DD9403E0329 /* Pods_Hashtrack_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hashtrack_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BBE11B71D2382A93933A94 /* Pods-Hashtrack-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hashtrack-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hashtrack-iosUITests/Pods-Hashtrack-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D4C4341AB564B18D23833C5 /* Pods-Hashtrack-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hashtrack-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hashtrack-ios/Pods-Hashtrack-ios.release.xcconfig"; sourceTree = "<group>"; };
+		9F7CFC6ECB050306D109F94F /* Pods_Hashtrack_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hashtrack_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDEA592AD04E502B851A6FC /* Pods_Hashtrack_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hashtrack_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC355A8912E881FEEF219BB8 /* Pods-Hashtrack-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hashtrack-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hashtrack-ios/Pods-Hashtrack-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93F771C8D81307B0F6288B3 /* Pods_Hashtrack_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13BB276DC4918E95725A7CD3 /* Pods_Hashtrack_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +98,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E6114D8A3D87BD1D9E3CEAF /* Pods_Hashtrack_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42C34145219866E5009B845E /* connect */ = {
+			isa = PBXGroup;
+			children = (
+				42C34146219866FC009B845E /* LoginViewController.swift */,
+				42C3414821986713009B845E /* LoginMode.swift */,
+				42C3414A2198672B009B845E /* LoginButton.swift */,
+				42C3414C2198673C009B845E /* LoginTextField.swift */,
+			);
+			path = connect;
+			sourceTree = "<group>";
+		};
 		42CB55C021985C7900A8BFF3 = {
 			isa = PBXGroup;
 			children = (
+				42C3413D2198606B009B845E /* GoogleService-Info.plist */,
 				42CB55CB21985C7900A8BFF3 /* Hashtrack-ios */,
 				42CB55E021985C7B00A8BFF3 /* Hashtrack-iosTests */,
 				42CB55EB21985C7B00A8BFF3 /* Hashtrack-iosUITests */,
 				42CB55CA21985C7900A8BFF3 /* Products */,
+				8AD00164CE7F6CB01D120DE1 /* Pods */,
+				7EE19B7BBBD6EB82392E0371 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +142,14 @@
 		42CB55CB21985C7900A8BFF3 /* Hashtrack-ios */ = {
 			isa = PBXGroup;
 			children = (
+				42C34145219866E5009B845E /* connect */,
 				42CB55CC21985C7900A8BFF3 /* AppDelegate.swift */,
 				42CB55CE21985C7900A8BFF3 /* ViewController.swift */,
-				42CB55D021985C7900A8BFF3 /* Main.storyboard */,
 				42CB55D321985C7B00A8BFF3 /* Assets.xcassets */,
-				42CB55D521985C7B00A8BFF3 /* LaunchScreen.storyboard */,
 				42CB55D821985C7B00A8BFF3 /* Info.plist */,
+				42CB55FA21985CEB00A8BFF3 /* HomeViewController.swift */,
+				42C34141219863E1009B845E /* HashtagViewController.swift */,
+				42C3414E219867A9009B845E /* WelcomeViewController.swift */,
 			);
 			path = "Hashtrack-ios";
 			sourceTree = "<group>";
@@ -125,6 +172,29 @@
 			path = "Hashtrack-iosUITests";
 			sourceTree = "<group>";
 		};
+		7EE19B7BBBD6EB82392E0371 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47AA401B242D4DD9403E0329 /* Pods_Hashtrack_ios.framework */,
+				9F7CFC6ECB050306D109F94F /* Pods_Hashtrack_iosTests.framework */,
+				CBDEA592AD04E502B851A6FC /* Pods_Hashtrack_iosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AD00164CE7F6CB01D120DE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC355A8912E881FEEF219BB8 /* Pods-Hashtrack-ios.debug.xcconfig */,
+				6D4C4341AB564B18D23833C5 /* Pods-Hashtrack-ios.release.xcconfig */,
+				1EFDCB85A7AB1202DE9967E4 /* Pods-Hashtrack-iosTests.debug.xcconfig */,
+				3521597CFB9E05B4DC18C1B7 /* Pods-Hashtrack-iosTests.release.xcconfig */,
+				51BBE11B71D2382A93933A94 /* Pods-Hashtrack-iosUITests.debug.xcconfig */,
+				36E7240E58DDEE34938375B2 /* Pods-Hashtrack-iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42CB55F121985C7B00A8BFF3 /* Build configuration list for PBXNativeTarget "Hashtrack-ios" */;
 			buildPhases = (
+				9259EBF05FDD6BA5E87AE96F /* [CP] Check Pods Manifest.lock */,
 				42CB55C521985C7900A8BFF3 /* Sources */,
 				42CB55C621985C7900A8BFF3 /* Frameworks */,
 				42CB55C721985C7900A8BFF3 /* Resources */,
+				D3EC091BC309B376E0110BC9 /* [CP] Embed Pods Frameworks */,
+				62E6C8DEF4C9086C342505FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42CB55F421985C7B00A8BFF3 /* Build configuration list for PBXNativeTarget "Hashtrack-iosTests" */;
 			buildPhases = (
+				398AC7CD4CCEF141F6C48D92 /* [CP] Check Pods Manifest.lock */,
 				42CB55D921985C7B00A8BFF3 /* Sources */,
 				42CB55DA21985C7B00A8BFF3 /* Frameworks */,
 				42CB55DB21985C7B00A8BFF3 /* Resources */,
+				A66ED7411479103585BB8056 /* [CP] Embed Pods Frameworks */,
+				7690DC1DB43D5CFA28D6BE60 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42CB55F721985C7B00A8BFF3 /* Build configuration list for PBXNativeTarget "Hashtrack-iosUITests" */;
 			buildPhases = (
+				5F4271DDE8A675584F751A78 /* [CP] Check Pods Manifest.lock */,
 				42CB55E421985C7B00A8BFF3 /* Sources */,
 				42CB55E521985C7B00A8BFF3 /* Frameworks */,
 				42CB55E621985C7B00A8BFF3 /* Resources */,
+				2010A58C6F7717DCCABF218C /* [CP] Embed Pods Frameworks */,
+				0B55F1C820980DE55F05808C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +308,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42CB55D721985C7B00A8BFF3 /* LaunchScreen.storyboard in Resources */,
 				42CB55D421985C7B00A8BFF3 /* Assets.xcassets in Resources */,
-				42CB55D221985C7900A8BFF3 /* Main.storyboard in Resources */,
+				42C3413E2198606B009B845E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C3413F2198606B009B845E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,18 +325,219 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C341402198606B009B845E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B55F1C820980DE55F05808C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hashtrack-iosUITests/Pods-Hashtrack-iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2010A58C6F7717DCCABF218C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hashtrack-iosUITests/Pods-Hashtrack-iosUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hashtrack-iosUITests/Pods-Hashtrack-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		398AC7CD4CCEF141F6C48D92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hashtrack-iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F4271DDE8A675584F751A78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hashtrack-iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62E6C8DEF4C9086C342505FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hashtrack-ios/Pods-Hashtrack-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7690DC1DB43D5CFA28D6BE60 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hashtrack-iosTests/Pods-Hashtrack-iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9259EBF05FDD6BA5E87AE96F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hashtrack-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A66ED7411479103585BB8056 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hashtrack-iosTests/Pods-Hashtrack-iosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3EC091BC309B376E0110BC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hashtrack-ios/Pods-Hashtrack-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hashtrack-ios/Pods-Hashtrack-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		42CB55C521985C7900A8BFF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C3414F219867A9009B845E /* WelcomeViewController.swift in Sources */,
 				42CB55CF21985C7900A8BFF3 /* ViewController.swift in Sources */,
+				42C3414D2198673C009B845E /* LoginTextField.swift in Sources */,
+				42C34142219863E1009B845E /* HashtagViewController.swift in Sources */,
+				42C3414B2198672B009B845E /* LoginButton.swift in Sources */,
+				42C3414921986713009B845E /* LoginMode.swift in Sources */,
 				42CB55CD21985C7900A8BFF3 /* AppDelegate.swift in Sources */,
+				42C34147219866FC009B845E /* LoginViewController.swift in Sources */,
+				42CB55FB21985CEB00A8BFF3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +546,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42CB55E221985C7B00A8BFF3 /* Hashtrack_iosTests.swift in Sources */,
+				42C34143219863E1009B845E /* HashtagViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +555,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42CB55ED21985C7B00A8BFF3 /* Hashtrack_iosUITests.swift in Sources */,
+				42C34144219863E1009B845E /* HashtagViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +573,6 @@
 			targetProxy = 42CB55E921985C7B00A8BFF3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		42CB55D021985C7900A8BFF3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42CB55D121985C7900A8BFF3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		42CB55D521985C7B00A8BFF3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42CB55D621985C7B00A8BFF3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		42CB55EF21985C7B00A8BFF3 /* Debug */ = {
@@ -430,6 +693,7 @@
 		};
 		42CB55F221985C7B00A8BFF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC355A8912E881FEEF219BB8 /* Pods-Hashtrack-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +712,7 @@
 		};
 		42CB55F321985C7B00A8BFF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4C4341AB564B18D23833C5 /* Pods-Hashtrack-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +731,7 @@
 		};
 		42CB55F521985C7B00A8BFF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EFDCB85A7AB1202DE9967E4 /* Pods-Hashtrack-iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +753,7 @@
 		};
 		42CB55F621985C7B00A8BFF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3521597CFB9E05B4DC18C1B7 /* Pods-Hashtrack-iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +775,7 @@
 		};
 		42CB55F821985C7B00A8BFF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51BBE11B71D2382A93933A94 /* Pods-Hashtrack-iosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +796,7 @@
 		};
 		42CB55F921985C7B00A8BFF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E7240E58DDEE34938375B2 /* Pods-Hashtrack-iosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

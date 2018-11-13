@@ -352,7 +352,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hashtrack-iosUITests/Pods-Hashtrack-iosUITests-resources.sh\"\n";
+			shellScript = "for i in `seq 1 ${SCRIPT_INPUT_FILE_COUNT}`; do\nNUM=`expr $i - 1`\nNEXT_FOLDER_ARG=SCRIPT_INPUT_FILE_$NUM\nINCLUDE_FRAMEWORK_FOLDER_ARGS=\"${INCLUDE_FRAMEWORK_FOLDER_ARGS} --scan-folder ${!NEXT_FOLDER_ARG}\"\ndone\n\n${TOOLCHAIN_DIR}/usr/bin/swift-stdlib-tool \\\n--copy --verbose --sign ${EXPANDED_CODE_SIGN_IDENTITY} \\\n--scan-executable \"${TARGET_BUILD_DIR}/${EXECUTABLE_PATH}\" \\\n--scan-folder \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\" \\\n--scan-folder \"${TARGET_BUILD_DIR}/${PLUGINS_FOLDER_PATH}\" \\\n--platform ${PLATFORM_NAME} \\\n--toolchain ${TOOLCHAIN_DIR} \\\n--destination \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\" \\\n--strip-bitcode --resource-destination \"${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}\" \\\n--resource-library libswiftRemoteMirror.dylib \\\n${INCLUDE_FRAMEWORK_FOLDER_ARGS}\n";
 			showEnvVarsInLog = 0;
 		};
 		2010A58C6F7717DCCABF218C /* [CP] Embed Pods Frameworks */ = {
@@ -442,7 +442,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hashtrack-ios/Pods-Hashtrack-ios-resources.sh\"\n";
+			shellScript = "for i in `seq 1 ${SCRIPT_INPUT_FILE_COUNT}`; do\nNUM=`expr $i - 1`\nNEXT_FOLDER_ARG=SCRIPT_INPUT_FILE_$NUM\nINCLUDE_FRAMEWORK_FOLDER_ARGS=\"${INCLUDE_FRAMEWORK_FOLDER_ARGS} --scan-folder ${!NEXT_FOLDER_ARG}\"\ndone\n\n${TOOLCHAIN_DIR}/usr/bin/swift-stdlib-tool \\\n--copy --verbose --sign ${EXPANDED_CODE_SIGN_IDENTITY} \\\n--scan-executable \"${TARGET_BUILD_DIR}/${EXECUTABLE_PATH}\" \\\n--scan-folder \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\" \\\n--scan-folder \"${TARGET_BUILD_DIR}/${PLUGINS_FOLDER_PATH}\" \\\n--platform ${PLATFORM_NAME} \\\n--toolchain ${TOOLCHAIN_DIR} \\\n--destination \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\" \\\n--strip-bitcode --resource-destination \"${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}\" \\\n--resource-library libswiftRemoteMirror.dylib \\\n${INCLUDE_FRAMEWORK_FOLDER_ARGS}\n";
 			showEnvVarsInLog = 0;
 		};
 		7690DC1DB43D5CFA28D6BE60 /* [CP] Copy Pods Resources */ = {
@@ -530,7 +530,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hashtrack-ios/Pods-Hashtrack-ios-frameworks.sh\"\n";
+			shellScript = "for i in `seq 1 ${SCRIPT_INPUT_FILE_COUNT}`; do\nNUM=`expr $i - 1`\nNEXT_FOLDER_ARG=SCRIPT_INPUT_FILE_$NUM\nINCLUDE_FRAMEWORK_FOLDER_ARGS=\"${INCLUDE_FRAMEWORK_FOLDER_ARGS} --scan-folder ${!NEXT_FOLDER_ARG}\"\ndone\n\n${TOOLCHAIN_DIR}/usr/bin/swift-stdlib-tool \\\n--copy --verbose --sign ${EXPANDED_CODE_SIGN_IDENTITY} \\\n--scan-executable \"${TARGET_BUILD_DIR}/${EXECUTABLE_PATH}\" \\\n--scan-folder \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\" \\\n--scan-folder \"${TARGET_BUILD_DIR}/${PLUGINS_FOLDER_PATH}\" \\\n--platform ${PLATFORM_NAME} \\\n--toolchain ${TOOLCHAIN_DIR} \\\n--destination \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\" \\\n--strip-bitcode --resource-destination \"${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}\" \\\n--resource-library libswiftRemoteMirror.dylib \\\n${INCLUDE_FRAMEWORK_FOLDER_ARGS}\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

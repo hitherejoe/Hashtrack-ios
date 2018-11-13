@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0E6114D8A3D87BD1D9E3CEAF /* Pods_Hashtrack_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDEA592AD04E502B851A6FC /* Pods_Hashtrack_iosUITests.framework */; };
 		13BB276DC4918E95725A7CD3 /* Pods_Hashtrack_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7CFC6ECB050306D109F94F /* Pods_Hashtrack_iosTests.framework */; };
+		421375B3219A509F002E7744 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421375B2219A509F002E7744 /* SnapKit.framework */; };
+		421375B5219A50D2002E7744 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421375B4219A50D2002E7744 /* SnapKit.framework */; };
 		42C3413E2198606B009B845E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42C3413D2198606B009B845E /* GoogleService-Info.plist */; };
 		42C3413F2198606B009B845E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42C3413D2198606B009B845E /* GoogleService-Info.plist */; };
 		42C341402198606B009B845E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42C3413D2198606B009B845E /* GoogleService-Info.plist */; };
@@ -50,6 +52,8 @@
 		1EFDCB85A7AB1202DE9967E4 /* Pods-Hashtrack-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hashtrack-iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hashtrack-iosTests/Pods-Hashtrack-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3521597CFB9E05B4DC18C1B7 /* Pods-Hashtrack-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hashtrack-iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hashtrack-iosTests/Pods-Hashtrack-iosTests.release.xcconfig"; sourceTree = "<group>"; };
 		36E7240E58DDEE34938375B2 /* Pods-Hashtrack-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hashtrack-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hashtrack-iosUITests/Pods-Hashtrack-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		421375B2219A509F002E7744 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		421375B4219A50D2002E7744 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C3413D2198606B009B845E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		42C34141219863E1009B845E /* HashtagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashtagViewController.swift; sourceTree = "<group>"; };
 		42C34146219866FC009B845E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				421375B3219A509F002E7744 /* SnapKit.framework in Frameworks */,
 				B93F771C8D81307B0F6288B3 /* Pods_Hashtrack_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				421375B5219A50D2002E7744 /* SnapKit.framework in Frameworks */,
 				0E6114D8A3D87BD1D9E3CEAF /* Pods_Hashtrack_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,6 +181,8 @@
 		7EE19B7BBBD6EB82392E0371 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				421375B4219A50D2002E7744 /* SnapKit.framework */,
+				421375B2219A509F002E7744 /* SnapKit.framework */,
 				47AA401B242D4DD9403E0329 /* Pods_Hashtrack_ios.framework */,
 				9F7CFC6ECB050306D109F94F /* Pods_Hashtrack_iosTests.framework */,
 				CBDEA592AD04E502B851A6FC /* Pods_Hashtrack_iosUITests.framework */,
@@ -358,6 +366,7 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
@@ -372,6 +381,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
@@ -382,8 +392,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hashtrack-iosUITests/Pods-Hashtrack-iosUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "for i in `seq 1 ${SCRIPT_INPUT_FILE_COUNT}`; do\nNUM=`expr $i - 1`\nNEXT_FOLDER_ARG=SCRIPT_INPUT_FILE_$NUM\nINCLUDE_FRAMEWORK_FOLDER_ARGS=\"${INCLUDE_FRAMEWORK_FOLDER_ARGS} --scan-folder ${!NEXT_FOLDER_ARG}\"\ndone\n\n${TOOLCHAIN_DIR}/usr/bin/swift-stdlib-tool \\\n--copy --verbose --sign ${EXPANDED_CODE_SIGN_IDENTITY} \\\n--scan-executable \"${TARGET_BUILD_DIR}/${EXECUTABLE_PATH}\" \\\n--scan-folder \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\" \\\n--scan-folder \"${TARGET_BUILD_DIR}/${PLUGINS_FOLDER_PATH}\" \\\n--platform ${PLATFORM_NAME} \\\n--toolchain ${TOOLCHAIN_DIR} \\\n--destination \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\" \\\n--strip-bitcode --resource-destination \"${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}\" \\\n--resource-library libswiftRemoteMirror.dylib \\\n${INCLUDE_FRAMEWORK_FOLDER_ARGS}\n";
 		};
 		398AC7CD4CCEF141F6C48D92 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -580,6 +589,7 @@
 		42CB55EF21985C7B00A8BFF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -641,6 +651,7 @@
 		42CB55F021985C7B00A8BFF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -697,11 +708,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC355A8912E881FEEF219BB8 /* Pods-Hashtrack-ios.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8UY6XGA3FX;
 				INFOPLIST_FILE = "Hashtrack-ios/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.joebirch.Hashtrack-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -713,11 +728,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D4C4341AB564B18D23833C5 /* Pods-Hashtrack-ios.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8UY6XGA3FX;
 				INFOPLIST_FILE = "Hashtrack-ios/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.joebirch.Hashtrack-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -734,7 +753,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8UY6XGA3FX;
 				INFOPLIST_FILE = "Hashtrack-iosTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.joebirch.Hashtrack-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -752,7 +775,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8UY6XGA3FX;
 				INFOPLIST_FILE = "Hashtrack-iosTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.joebirch.Hashtrack-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -769,7 +796,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8UY6XGA3FX;
 				INFOPLIST_FILE = "Hashtrack-iosUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.joebirch.Hashtrack-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -786,7 +817,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8UY6XGA3FX;
 				INFOPLIST_FILE = "Hashtrack-iosUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.joebirch.Hashtrack-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -805,7 +840,7 @@
 				42CB55F021985C7B00A8BFF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		42CB55F121985C7B00A8BFF3 /* Build configuration list for PBXNativeTarget "Hashtrack-ios" */ = {
 			isa = XCConfigurationList;
@@ -814,7 +849,7 @@
 				42CB55F321985C7B00A8BFF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		42CB55F421985C7B00A8BFF3 /* Build configuration list for PBXNativeTarget "Hashtrack-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -823,7 +858,7 @@
 				42CB55F621985C7B00A8BFF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		42CB55F721985C7B00A8BFF3 /* Build configuration list for PBXNativeTarget "Hashtrack-iosUITests" */ = {
 			isa = XCConfigurationList;
@@ -832,7 +867,7 @@
 				42CB55F921985C7B00A8BFF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

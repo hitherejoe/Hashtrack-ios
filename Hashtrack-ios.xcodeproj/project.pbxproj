@@ -29,7 +29,6 @@
 		42CB55CF21985C7900A8BFF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB55CE21985C7900A8BFF3 /* ViewController.swift */; };
 		42CB55D421985C7B00A8BFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42CB55D321985C7B00A8BFF3 /* Assets.xcassets */; };
 		42CB55E221985C7B00A8BFF3 /* Hashtrack_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB55E121985C7B00A8BFF3 /* Hashtrack_iosTests.swift */; };
-		42CB55ED21985C7B00A8BFF3 /* Hashtrack_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB55EC21985C7B00A8BFF3 /* Hashtrack_iosUITests.swift */; };
 		42CB55FB21985CEB00A8BFF3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB55FA21985CEB00A8BFF3 /* HomeViewController.swift */; };
 		B93F771C8D81307B0F6288B3 /* Pods_Hashtrack_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA401B242D4DD9403E0329 /* Pods_Hashtrack_ios.framework */; };
 /* End PBXBuildFile section */
@@ -76,8 +75,6 @@
 		42CB55E121985C7B00A8BFF3 /* Hashtrack_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hashtrack_iosTests.swift; sourceTree = "<group>"; };
 		42CB55E321985C7B00A8BFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42CB55E821985C7B00A8BFF3 /* Hashtrack-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hashtrack-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		42CB55EC21985C7B00A8BFF3 /* Hashtrack_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hashtrack_iosUITests.swift; sourceTree = "<group>"; };
-		42CB55EE21985C7B00A8BFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42CB55FA21985CEB00A8BFF3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		47AA401B242D4DD9403E0329 /* Pods_Hashtrack_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hashtrack_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BBE11B71D2382A93933A94 /* Pods-Hashtrack-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hashtrack-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hashtrack-iosUITests/Pods-Hashtrack-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,7 +133,6 @@
 				42C3413D2198606B009B845E /* GoogleService-Info.plist */,
 				42CB55CB21985C7900A8BFF3 /* Hashtrack-ios */,
 				42CB55E021985C7B00A8BFF3 /* Hashtrack-iosTests */,
-				42CB55EB21985C7B00A8BFF3 /* Hashtrack-iosUITests */,
 				42CB55CA21985C7900A8BFF3 /* Products */,
 				8AD00164CE7F6CB01D120DE1 /* Pods */,
 				7EE19B7BBBD6EB82392E0371 /* Frameworks */,
@@ -176,15 +172,6 @@
 				42CB55E321985C7B00A8BFF3 /* Info.plist */,
 			);
 			path = "Hashtrack-iosTests";
-			sourceTree = "<group>";
-		};
-		42CB55EB21985C7B00A8BFF3 /* Hashtrack-iosUITests */ = {
-			isa = PBXGroup;
-			children = (
-				42CB55EC21985C7B00A8BFF3 /* Hashtrack_iosUITests.swift */,
-				42CB55EE21985C7B00A8BFF3 /* Info.plist */,
-			);
-			path = "Hashtrack-iosUITests";
 			sourceTree = "<group>";
 		};
 		7EE19B7BBBD6EB82392E0371 /* Frameworks */ = {
@@ -515,7 +502,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42CB55ED21985C7B00A8BFF3 /* Hashtrack_iosUITests.swift in Sources */,
 				42C34144219863E1009B845E /* HashtagViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

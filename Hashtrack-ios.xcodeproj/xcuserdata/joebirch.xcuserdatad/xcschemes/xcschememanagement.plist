@@ -7,7 +7,25 @@
 		<key>Hashtrack-ios.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>22</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>42CB55C821985C7900A8BFF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>42CB55DC21985C7B00A8BFF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>42CB55E721985C7B00A8BFF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

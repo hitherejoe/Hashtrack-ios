@@ -4,6 +4,7 @@
 target 'Hashtrack-ios' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
+  pod 'FontAwesome.swift'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
@@ -16,13 +17,16 @@ target 'Hashtrack-ios' do
     # Pods for testing
   end
 
-  target 'Hashtrack-iosUITests' do
+  
+
+end
+
+target 'Hashtrack-iosUITests' do
+    use_frameworks!
     inherit! :search_paths
     # Pods for testing
     pod 'Firebase/Core'
     pod 'Firebase/Auth'
     pod 'Firebase/Firestore'
     pod 'SnapKit', '~> 4.0.0'
-  end
-
-end
+    end

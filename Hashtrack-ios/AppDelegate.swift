@@ -19,13 +19,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var handle: AuthStateDidChangeListenerHandle?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        //FirebaseApp.configure()
+        FirebaseApp.configure()
         navController = UINavigationController()
         window = UIWindow(frame: UIScreen.main.bounds)
         self.window!.makeKeyAndVisible()
         //observeAuthorisedState()
         self.setupRootViewController(viewController: navController!)
-        self.navController!.pushViewController(WelcomeViewController(), animated: false)
+        self.navController!.pushViewController(HomeViewController(firestore: Firestore.firestore()), animated: false)
         return true
     }
     

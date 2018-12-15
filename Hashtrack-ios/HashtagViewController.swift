@@ -13,12 +13,14 @@ import FirebaseUI
 class HashtagViewController: UIViewController, UITableViewDelegate {
     
     var firestore: Firestore?
+    var network: String?
     var dataSource: FUIFirestoreTableViewDataSource?
     var data: [DocumentSnapshot]?
     private var myTableView: UITableView!
     
-    init(firestore: Firestore) {
+    init(firestore: Firestore, network: String) {
         self.firestore = firestore
+        self.network = network
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -30,9 +32,22 @@ class HashtagViewController: UIViewController, UITableViewDelegate {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
         
+        let textView = UITextView(frame: CGRect(x: 50.0, y: 150.0, width: 250.0, height: 100.0))
+        textView.center = self.view.center
+        textView.accessibilityIdentifier = "networkLabel"
+        textView.textAlignment = NSTextAlignment.center
+        self.view.addSubview(textView)
+        textView.text = "Content screen for " + network!
+        /*
         let barHeight: CGFloat = UIApplication.shared.statusBarFrame.size.height
         let displayWidth: CGFloat = self.view.frame.width
         let displayHeight: CGFloat = self.view.frame.height
+        
+        let alertController = UIAlertController(title: network, message:
+            "You have selected " + network! , preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertAction.Style.default,handler: nil))
+        
+        self.present(alertController, animated: true, completion: nil)
         
         myTableView = UITableView(frame: CGRect(x: 0, y: barHeight, width: displayWidth, height: displayHeight - barHeight))
         myTableView.register(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
@@ -50,6 +65,7 @@ class HashtagViewController: UIViewController, UITableViewDelegate {
         })
         
         dataSource?.bind(to: myTableView)
+ */
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FontAwesome_swift
 
 class HomeViewController: UITabBarController {
     
@@ -24,15 +25,15 @@ class HomeViewController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let twitterController = HashtagViewController(firestore: self.firestore!)
-        twitterController.tabBarItem = UITabBarItem(title: "Twitter", image: UIImage(named: "twitter"), tag: 0)
+        let twitterController = HashtagViewController(firestore: self.firestore!, network: "twitter")
+        twitterController.tabBarItem = UITabBarItem(title: "Twitter", image:
+            UIImage.fontAwesomeIcon(name: .twitter, style: .brands, textColor: .black, size: CGSize(width: 36, height: 36)), tag: 0)
         
-        let instagramController = HashtagViewController(firestore: self.firestore!)
-        instagramController.tabBarItem = UITabBarItem(title: "Instagram", image: UIImage(named: "compass"), tag: 0)
+        let instagramController = HashtagViewController(firestore: self.firestore!, network: "instagram")
+        instagramController.tabBarItem = UITabBarItem(title: "Instagram", image: UIImage.fontAwesomeIcon(name: .instagram, style: .brands, textColor: .black, size: CGSize(width: 36, height: 36)), tag: 0)
         
         let controllers = [twitterController, instagramController]
         self.viewControllers = controllers
-        self.viewControllers = controllers.map { UINavigationController(rootViewController: $0)}
     }
     
 }

@@ -11,6 +11,7 @@
 		13BB276DC4918E95725A7CD3 /* Pods_Hashtrack_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7CFC6ECB050306D109F94F /* Pods_Hashtrack_iosTests.framework */; };
 		421375B3219A509F002E7744 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421375B2219A509F002E7744 /* SnapKit.framework */; };
 		421375B5219A50D2002E7744 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421375B4219A50D2002E7744 /* SnapKit.framework */; };
+		42196A6421C5613300A2F5E9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42196A6321C5613300A2F5E9 /* Info.plist */; };
 		424D978C219E1ED8005B4278 /* SocialNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424D978B219E1ED8005B4278 /* SocialNetwork.swift */; };
 		424D9790219E59ED005B4278 /* FontAwesome_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424D978F219E59ED005B4278 /* FontAwesome_swift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		424D9792219E5A0B005B4278 /* FontAwesome_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424D9791219E5A0B005B4278 /* FontAwesome_swift.framework */; };
@@ -56,6 +57,7 @@
 		36E7240E58DDEE34938375B2 /* Pods-Hashtrack-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hashtrack-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hashtrack-iosUITests/Pods-Hashtrack-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		421375B2219A509F002E7744 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		421375B4219A50D2002E7744 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42196A6321C5613300A2F5E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		424D978B219E1ED8005B4278 /* SocialNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetwork.swift; sourceTree = "<group>"; };
 		424D978F219E59ED005B4278 /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FontAwesome_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		424D9791219E5A0B005B4278 /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FontAwesome_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +118,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42196A6221C5610000A2F5E9 /* Hashtrack-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42196A6321C5613300A2F5E9 /* Info.plist */,
+			);
+			path = "Hashtrack-iosUITests";
+			sourceTree = "<group>";
+		};
 		42C34145219866E5009B845E /* connect */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +140,7 @@
 		42CB55C021985C7900A8BFF3 = {
 			isa = PBXGroup;
 			children = (
+				42196A6221C5610000A2F5E9 /* Hashtrack-iosUITests */,
 				42C3413D2198606B009B845E /* GoogleService-Info.plist */,
 				42CB55CB21985C7900A8BFF3 /* Hashtrack-ios */,
 				42CB55E021985C7B00A8BFF3 /* Hashtrack-iosTests */,
@@ -327,6 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42196A6421C5613300A2F5E9 /* Info.plist in Resources */,
 				42C341402198606B009B845E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,6 +20,20 @@
                ReferencedContainer = "container:Hashtrack-ios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "42CB55E721985C7B00A8BFF3"
+               BuildableName = "Hashtrack-iosUITests.xctest"
+               BlueprintName = "Hashtrack-iosUITests"
+               ReferencedContainer = "container:Hashtrack-ios.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -36,16 +50,6 @@
                BlueprintIdentifier = "42CB55DC21985C7B00A8BFF3"
                BuildableName = "Hashtrack-iosTests.xctest"
                BlueprintName = "Hashtrack-iosTests"
-               ReferencedContainer = "container:Hashtrack-ios.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42CB55E721985C7B00A8BFF3"
-               BuildableName = "Hashtrack-iosUITests.xctest"
-               BlueprintName = "Hashtrack-iosUITests"
                ReferencedContainer = "container:Hashtrack-ios.xcodeproj">
             </BuildableReference>
          </TestableReference>

@@ -23,17 +23,17 @@
 	<key>STORAGE_BUCKET</key>
 	<string>your_bucket</string>
 	<key>IS_ADS_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>your_id</string>
+	<string>1:708305249927:ios:dbc7cb2555f639c4</string>
 	<key>DATABASE_URL</key>
 	<string>your_url</string>
 </dict>

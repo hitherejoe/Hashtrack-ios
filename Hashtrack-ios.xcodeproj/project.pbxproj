@@ -12,12 +12,11 @@
 		421375B3219A509F002E7744 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421375B2219A509F002E7744 /* SnapKit.framework */; };
 		421375B5219A50D2002E7744 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421375B4219A50D2002E7744 /* SnapKit.framework */; };
 		42196A6421C5613300A2F5E9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42196A6321C5613300A2F5E9 /* Info.plist */; };
+		4230972C21FE1A9F000E5296 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4230972B21FE1A9F000E5296 /* GoogleService-Info.plist */; };
+		4230972D21FE1A9F000E5296 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4230972B21FE1A9F000E5296 /* GoogleService-Info.plist */; };
 		424D978C219E1ED8005B4278 /* SocialNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424D978B219E1ED8005B4278 /* SocialNetwork.swift */; };
 		424D9790219E59ED005B4278 /* FontAwesome_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424D978F219E59ED005B4278 /* FontAwesome_swift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		424D9792219E5A0B005B4278 /* FontAwesome_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424D9791219E5A0B005B4278 /* FontAwesome_swift.framework */; };
-		42C3413E2198606B009B845E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42C3413D2198606B009B845E /* GoogleService-Info.plist */; };
-		42C3413F2198606B009B845E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42C3413D2198606B009B845E /* GoogleService-Info.plist */; };
-		42C341402198606B009B845E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42C3413D2198606B009B845E /* GoogleService-Info.plist */; };
 		42C34142219863E1009B845E /* HashtagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C34141219863E1009B845E /* HashtagViewController.swift */; };
 		42C34143219863E1009B845E /* HashtagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C34141219863E1009B845E /* HashtagViewController.swift */; };
 		42C34144219863E1009B845E /* HashtagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C34141219863E1009B845E /* HashtagViewController.swift */; };
@@ -58,10 +57,10 @@
 		421375B2219A509F002E7744 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		421375B4219A50D2002E7744 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42196A6321C5613300A2F5E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4230972B21FE1A9F000E5296 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		424D978B219E1ED8005B4278 /* SocialNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetwork.swift; sourceTree = "<group>"; };
 		424D978F219E59ED005B4278 /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FontAwesome_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		424D9791219E5A0B005B4278 /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FontAwesome_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		42C3413D2198606B009B845E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		42C34141219863E1009B845E /* HashtagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashtagViewController.swift; sourceTree = "<group>"; };
 		42C34146219866FC009B845E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		42C3414821986713009B845E /* LoginMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMode.swift; sourceTree = "<group>"; };
@@ -140,8 +139,8 @@
 		42CB55C021985C7900A8BFF3 = {
 			isa = PBXGroup;
 			children = (
+				4230972B21FE1A9F000E5296 /* GoogleService-Info.plist */,
 				42196A6221C5610000A2F5E9 /* Hashtrack-iosUITests */,
-				42C3413D2198606B009B845E /* GoogleService-Info.plist */,
 				42CB55CB21985C7900A8BFF3 /* Hashtrack-ios */,
 				42CB55E021985C7B00A8BFF3 /* Hashtrack-iosTests */,
 				42CB55CA21985C7900A8BFF3 /* Products */,
@@ -322,7 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42CB55D421985C7B00A8BFF3 /* Assets.xcassets in Resources */,
-				42C3413E2198606B009B845E /* GoogleService-Info.plist in Resources */,
+				4230972C21FE1A9F000E5296 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42C3413F2198606B009B845E /* GoogleService-Info.plist in Resources */,
+				4230972D21FE1A9F000E5296 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +338,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				42196A6421C5613300A2F5E9 /* Info.plist in Resources */,
-				42C341402198606B009B845E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
